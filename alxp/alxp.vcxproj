@@ -19,12 +19,26 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
+    <MASM Include="addsubtest.asm" />
     <MASM Include="addtwo.asm" />
     <MASM Include="addtwosum.asm" />
     <MASM Include="addvariables.asm" />
+    <MASM Include="btlendian.asm" />
+    <MASM Include="exchangearr.asm" />
+    <MASM Include="fibonacci.asm" />
+    <MASM Include="inputloop.asm" />
     <MASM Include="listsize.asm" />
     <MASM Include="main.asm" />
     <MASM Include="moving.asm" />
+    <MASM Include="pointers.asm" />
+    <MASM Include="procsumarr.asm" />
+    <MASM Include="reversearr.asm" />
+    <MASM Include="reversestr.asm" />
+    <MASM Include="strcpy.asm" />
+    <MASM Include="sumarray.asm" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include=".gitignore" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>15.0</VCProjectVersion>
@@ -81,6 +95,8 @@
   <PropertyGroup Label="UserMacros" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
     <LinkIncremental>true</LinkIncremental>
+    <IncludePath>C:\Irvine;$(IncludePath)</IncludePath>
+    <LibraryPath>C:\Irvine;$(LibraryPath)</LibraryPath>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
     <LinkIncremental>true</LinkIncremental>
@@ -105,6 +121,7 @@
       <SubSystem>Console</SubSystem>
       <GenerateDebugInformation>true</GenerateDebugInformation>
       <EntryPointSymbol>main</EntryPointSymbol>
+      <AdditionalDependencies>Irvine32.lib;%(AdditionalDependencies)</AdditionalDependencies>
     </Link>
     <MASM>
       <GeneratePreprocessedSourceListing>

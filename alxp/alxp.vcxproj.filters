@@ -19,6 +19,9 @@
     <Filter Include="Source Files\ch04">
       <UniqueIdentifier>{ab13858c-dc1d-4dca-b4aa-f0156ce9bf2f}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Source Files\ch05">
+      <UniqueIdentifier>{6b80c91a-4d9d-4fee-bb64-ac724710c563}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <MASM Include="main.asm">
@@ -39,5 +42,41 @@
     <MASM Include="moving.asm">
       <Filter>Source Files\ch04</Filter>
     </MASM>
+    <MASM Include="addsubtest.asm">
+      <Filter>Source Files\ch04</Filter>
+    </MASM>
+    <MASM Include="pointers.asm">
+      <Filter>Source Files\ch04</Filter>
+    </MASM>
+    <MASM Include="sumarray.asm">
+      <Filter>Source Files\ch04</Filter>
+    </MASM>
+    <MASM Include="strcpy.asm">
+      <Filter>Source Files\ch04</Filter>
+    </MASM>
+    <MASM Include="btlendian.asm">
+      <Filter>Source Files\ch04</Filter>
+    </MASM>
+    <MASM Include="exchangearr.asm">
+      <Filter>Source Files\ch04</Filter>
+    </MASM>
+    <MASM Include="fibonacci.asm">
+      <Filter>Source Files\ch04</Filter>
+    </MASM>
+    <MASM Include="reversearr.asm">
+      <Filter>Source Files\ch04</Filter>
+    </MASM>
+    <MASM Include="reversestr.asm">
+      <Filter>Source Files\ch05</Filter>
+    </MASM>
+    <MASM Include="procsumarr.asm">
+      <Filter>Source Files\ch05</Filter>
+    </MASM>
+    <MASM Include="inputloop.asm">
+      <Filter>Source Files\ch05</Filter>
+    </MASM>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include=".gitignore" />
   </ItemGroup>
 </Project>
