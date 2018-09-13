@@ -22,6 +22,11 @@ reverse_array proto
 reverse_string proto
 proc_sum_array proto
 input_loop proto
+random_integer proto
+performance_timing proto
+search_array proto
+flow_chart	proto
+case_table	proto
 
 .code
 main PROC
@@ -40,7 +45,12 @@ main PROC
 	;invoke reverse_array
 	;invoke reverse_string
 	;call  proc_sum_array
-	call input_loop
+	;call input_loop
+	;call random_integer
+	;call performance_timing
+	;call search_array
+	;call flow_chart
+	call case_table
 	
 
     INVOKE ExitProcess,0

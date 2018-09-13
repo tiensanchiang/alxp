@@ -22,6 +22,9 @@
     <Filter Include="Source Files\ch05">
       <UniqueIdentifier>{6b80c91a-4d9d-4fee-bb64-ac724710c563}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Source Files\ch06">
+      <UniqueIdentifier>{d795c23c-399b-4336-ada1-0a7681e94203}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <MASM Include="main.asm">
@@ -74,6 +77,21 @@
     </MASM>
     <MASM Include="inputloop.asm">
       <Filter>Source Files\ch05</Filter>
+    </MASM>
+    <MASM Include="randomint.asm">
+      <Filter>Source Files\ch05</Filter>
+    </MASM>
+    <MASM Include="performancetiming.asm">
+      <Filter>Source Files\ch05</Filter>
+    </MASM>
+    <MASM Include="searcharr.asm">
+      <Filter>Source Files\ch06</Filter>
+    </MASM>
+    <MASM Include="flowchart.asm">
+      <Filter>Source Files\ch06</Filter>
+    </MASM>
+    <MASM Include="casetable.asm">
+      <Filter>Source Files\ch06</Filter>
     </MASM>
   </ItemGroup>
   <ItemGroup>
