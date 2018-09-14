@@ -25,6 +25,9 @@
     <Filter Include="Source Files\ch06">
       <UniqueIdentifier>{d795c23c-399b-4336-ada1-0a7681e94203}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Source Files\ch07">
+      <UniqueIdentifier>{503b9809-b7d7-4dc6-a5ac-887e93610bb0}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <MASM Include="main.asm">
@@ -92,6 +95,12 @@
     </MASM>
     <MASM Include="casetable.asm">
       <Filter>Source Files\ch06</Filter>
+    </MASM>
+    <MASM Include="finitestatemachine.asm">
+      <Filter>Source Files\ch06</Filter>
+    </MASM>
+    <MASM Include="binaryascii.asm">
+      <Filter>Source Files\ch07</Filter>
     </MASM>
   </ItemGroup>
   <ItemGroup>

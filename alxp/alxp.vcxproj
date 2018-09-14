@@ -23,10 +23,12 @@
     <MASM Include="addtwo.asm" />
     <MASM Include="addtwosum.asm" />
     <MASM Include="addvariables.asm" />
+    <MASM Include="binaryascii.asm" />
     <MASM Include="btlendian.asm" />
     <MASM Include="casetable.asm" />
     <MASM Include="exchangearr.asm" />
     <MASM Include="fibonacci.asm" />
+    <MASM Include="finitestatemachine.asm" />
     <MASM Include="flowchart.asm" />
     <MASM Include="inputloop.asm" />
     <MASM Include="listsize.asm" />

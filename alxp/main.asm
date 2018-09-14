@@ -27,6 +27,8 @@ performance_timing proto
 search_array proto
 flow_chart	proto
 case_table	proto
+finite_state_machine proto
+binary_ascii proto
 
 .code
 main PROC
@@ -50,7 +52,9 @@ main PROC
 	;call performance_timing
 	;call search_array
 	;call flow_chart
-	call case_table
+	;call case_table
+	;call finite_state_machine
+	call binary_ascii
 	
 
     INVOKE ExitProcess,0
